@@ -118,7 +118,7 @@ namespace MenuFunction
                 var prod1 = new Product()
                 {
                     RowKey = filename,
-                    PartitionKey = "Order",
+                    PartitionKey = filename,
                     Status = "Processed",
                     TotalPrice = Price,
                 };
