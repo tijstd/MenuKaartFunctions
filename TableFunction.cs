@@ -57,7 +57,7 @@ namespace MenuFunction
             log.LogInformation("C# HTTP trigger function processed a request.");
 
 
-
+            // Dit is een test
 
 
             string Price;
